@@ -12,7 +12,7 @@ body{
 
 /* header section starts here  */
 header h3{
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     padding-top: 30px;
    display: flex;
    justify-content: center;
@@ -21,7 +21,7 @@ header h3{
    font-size: 25px;
 }
 .headerbanner h3{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     justify-content: center;
     font-weight: lighter;
@@ -67,7 +67,8 @@ header h3{
     border-radius: 10px;
 }
 .two:hover{
-    background: var(--white-color);
+    background: var(--black-color);
+    color: var(--white-color);
 }
 
 /* second section ends here  */
@@ -129,6 +130,7 @@ header h3{
     color: var(--white-color);
     padding: 10px 15px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .btn:hover{
     background: var(--white-color);
