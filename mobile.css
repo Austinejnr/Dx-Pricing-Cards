@@ -1,0 +1,42 @@
+@media screen and (max-width:1280px) {
+    .headerbanner h3{
+        /* display: block; */
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 22px;
+        text-align: center;
+       
+        
+    }
+    .second{
+        margin-left: 20px;
+        width: 90%;
+        text-align: center;
+    }
+    .one{
+        font-size: 22px;
+    }
+    .two{
+        font-size: 22px;
+    }
+    .third{
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+    }
+    .setup{
+        border-right: none;
+    }
+    .eleven{
+       border-right: none;
+    }
+    .path{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .third{
+        flex-wrap: wrap;
+    }
+}

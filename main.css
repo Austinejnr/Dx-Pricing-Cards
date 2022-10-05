@@ -1,0 +1,141 @@
+/* major fixes start here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* major fixes ends here  */
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* header section starts here  */
+header h3{
+    border: 3px solid tomato;
+    padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 30px;
+   font-weight: bolder;
+   font-size: 25px;
+}
+.headerbanner h3{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+/* header section ends here  */
+
+/* second section starts here  */
+.second{
+    display: flex;
+    justify-content: center;
+    background: var(--text-color);
+    width: 280px;
+    border-radius: 10px; 
+    height: 50px;
+    align-items: center;
+    /* border: 3px solid blue; */
+    margin-bottom: 40px;
+    margin-left: 550px;
+    text-align: center;
+    cursor: pointer;
+}
+.one{
+    /* border: 3px solid var(--text-color); */
+    background: var(--white-color);
+    border-radius: 10px; 
+    /* border: 3px solid var(--text-color); */
+    height: 40px;
+    padding: 10px;
+    /* margin-right: 15px; */
+}
+.one:hover{
+    background: var(--black-color);
+    color: var(--white-color);
+}
+.two{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    /* padding-left: 30px; */
+    border-radius: 10px;
+}
+.two:hover{
+    background: var(--white-color);
+}
+
+/* second section ends here  */
+
+/* third section starts here  */
+.third{
+    border-radius: 25px;
+    border: 3px solid var(--black-color);
+    /* height: 400px; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+}
+.setup{
+    padding-right: 30px;
+    padding-left: 15px;
+    border-right: 3px solid var(--black-color);
+}
+.eleven{
+    padding-right: 30px;
+    border-right: 3px solid var(--black-color);
+}
+.path{
+    padding-left: 40px;
+}
+.path h4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.path p{
+    padding-bottom: 15px;
+}
+.path h5{
+    font-size: 20px;
+}
+.path h5 span{
+    font-size: 45px;
+}
+
+.path h6{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.terms{
+    padding-bottom: 10px;
+}
+.third i{
+    padding-right: 5px;
+}
+.twelve{
+   padding-right: 30px;
+}
+.btn{
+    margin-top: 20px;
+    background: var(--black-color);
+    color: var(--white-color);
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background: var(--white-color);
+    color: var(--black-color);
+    transition: all 0.5s ease;
+}
+.btn-dark{
+    margin-top: 40px;
+}
+/* third section ends here  */
